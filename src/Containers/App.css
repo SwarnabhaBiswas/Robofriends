@@ -17,8 +17,4 @@ h1 {
     color: #064662;
     padding: 0 15px;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    h1{
-        width:400px;
-    }
-}
+
