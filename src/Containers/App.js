@@ -40,7 +40,7 @@ class App extends React.Component{
         else{
             return(
                 <div className='tc'>
-                    <h1 className='f1 ph4'>Robofriends</h1>
+                    <h1>Robofriends</h1>
                     <SearchBox searchChange={this.onSearchChange}/>
 
                     {/* this wraps the component on which the feature needs to be added. uses children. scroll's children is cardList so props.children */}
